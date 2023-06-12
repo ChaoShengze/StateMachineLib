@@ -1,4 +1,5 @@
-﻿
+﻿using System;
+
 namespace StateMachineLib
 {
     /// <summary>
@@ -12,7 +13,7 @@ namespace StateMachineLib
         /// 当前状态
         /// Current Status
         /// </summary>
-        public State? NowState = null;
+        public State NowState = null;
         /// <summary>
         /// 状态机名称，用以区分不同状态机
         /// Name of statemachine
