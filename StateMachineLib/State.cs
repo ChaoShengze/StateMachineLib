@@ -1,5 +1,4 @@
-﻿
-namespace StateMachineLib
+﻿namespace StateMachineScaffold
 {
     /// <summary>
     /// 状态，包含Before、Now、After三个阶段
@@ -20,7 +19,7 @@ namespace StateMachineLib
         /// 正式进入某个状态前的准备工作
         /// Preparation for a formal entry into a state
         /// </summary>
-        public virtual void BeforeStateChange() 
+        public virtual void BeforeStateChange()
         {
             StateStage = StateStage.BEFORE;
         }

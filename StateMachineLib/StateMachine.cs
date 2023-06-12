@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StateMachineLib
+namespace StateMachineScaffold
 {
     /// <summary>
     /// 状态机脚手架，用于方便的控制逻辑状态
